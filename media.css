@@ -1,0 +1,337 @@
+@media (max-width: 40em) {
+  html {
+    font-size: 47.5%;
+  }
+
+  .first-button {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    z-index: 1000;
+  }
+
+  .main-nav {
+    background-color: rgb(255, 249, 249);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    transform: translateX(100%);
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+
+    height: 100vh;
+    width: 100%;
+    transition: all 0.5s ease-in;
+    /* Hide navigation */
+    opacity: 0;
+
+    /* Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-links {
+    margin-bottom: 3rem;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .main-nav-links {
+    flex-direction: column;
+  }
+
+  /* .menu[name="open-menu"] {
+    display: block;
+    margin-right: 4rem;
+  }
+
+  .menu[name="close-menu"] {
+    display: none;
+    margin-right: 4rem;
+    margin-top: -2rem;
+  } */
+
+  .menu-open {
+    display: block;
+    margin-right: 4rem;
+  }
+
+  .menu-close {
+    display: none;
+    margin-right: 4rem;
+    margin-top: -2rem;
+  }
+
+  .main-section.section-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10rem;
+    justify-content: center;
+  }
+
+  .product-charts {
+    grid-row: 1 / 1;
+    margin: 0 auto;
+    margin-top: -4rem;
+  }
+
+  .product-text {
+    margin: 0 auto;
+    margin-top: -5rem;
+    text-align: center;
+  }
+
+  .about-manage {
+    margin-left: 10rem;
+  }
+
+  .company-logo {
+    margin-left: 5rem;
+  }
+
+  .second-button {
+    margin-left: 19rem;
+  }
+
+  .small-text {
+    line-height: 3.5rem;
+  }
+
+  .about-manage-different {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -2rem;
+    text-align: center;
+    max-height: 30rem;
+    margin-left: 1rem;
+  }
+
+  .different-info {
+    margin-top: 7rem;
+    margin-left: 3rem;
+    display: block;
+
+    position: relative;
+  }
+
+  .secondary-section {
+    display: block;
+  }
+
+  .product-charts img {
+    width: 80%;
+    margin-left: 7rem;
+  }
+
+  .about-manage-text h4 {
+    margin-left: 6rem;
+
+    background-color: rgba(255, 127, 80, 0.144);
+    padding: 1.5rem 5rem;
+  }
+
+  .just-for-margin {
+    margin-right: 4rem;
+  }
+
+  .number-holder .numbers {
+    position: absolute;
+    top: -2rem;
+    left: -3rem;
+    color: white;
+    background-color: rgb(242, 95, 58);
+    padding: 1.6rem 3rem;
+  }
+
+  .each-section {
+    margin-bottom: 6rem;
+  }
+
+  .number-1,
+  .number-2,
+  .number-3 {
+    padding: 2rem 3rem;
+    width: 8rem;
+    border-radius: 100rem;
+  }
+
+  .indicator {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .btn {
+    display: inline-block;
+    height: 1.5rem;
+    border-radius: 10%;
+    width: 1.5rem;
+    border: 1px solid #f25f3a;
+  }
+
+  .active {
+    width: 3rem;
+    background-color: #f25f3a;
+  }
+
+  .second-last-button {
+    margin-top: 6rem;
+  }
+
+  .testimonial {
+    width: 100%;
+  }
+
+  .section-testimonials {
+    margin-top: 6rem;
+  }
+
+  .section-container {
+    position: relative;
+    line-height: 1.9;
+    transition: all 0.5s;
+  }
+
+  .ali.testimonial,
+  .richard.testimonial,
+  .anisha.testimonial,
+  .shanai.testimonial {
+    position: absolute;
+    max-width: 95%;
+    margin-top: 5rem;
+    height: 30rem;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .grid--3-row {
+    display: block;
+  }
+
+  .grid--1-row {
+    display: block;
+  }
+
+  .anisha {
+    transform: translateX(-600px);
+  }
+
+  .richard {
+    transform: translateX(-1000px);
+  }
+
+  .shanai {
+    transform: translateX(-1500px);
+    display: block;
+  }
+
+  .btn {
+    margin-top: 40rem;
+  }
+
+  .above-footer {
+    display: flex;
+    flex-direction: column;
+    height: 60rem;
+
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .above-footer-text {
+    margin-top: 13rem;
+    max-width: 50rem;
+    font-size: 5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+
+  .foot-btn {
+    margin-left: -10rem;
+  }
+
+  .footer-section {
+    height: 74rem;
+    max-width: 75rem;
+    margin: 0 auto;
+  }
+
+  .footer.main-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.9rem;
+  }
+
+  .input-label {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-left: 8rem;
+    font-size: 2.3rem;
+    margin-top: 9rem;
+  }
+
+  #input {
+    padding: 2rem 6rem;
+    font-size: 2.2rem;
+  }
+
+  .final-button {
+    margin-top: 0.8rem;
+  }
+
+  .final-button .go-button {
+    padding: 1.8rem 4rem;
+  }
+
+  .infos-1 {
+    grid-row: 2 / 2;
+    margin-left: 12rem;
+    margin-top: 7rem;
+  }
+
+  .infos-2 {
+    grid-row: 2 / 2;
+    margin-left: -10rem;
+    margin-top: 3rem;
+  }
+
+  .footer .footer-logos {
+    display: grid;
+
+    grid-template-columns: 1fr;
+  }
+
+  .footer-images {
+    margin-top: 2rem;
+    grid-row: 1 / 1;
+  }
+
+  .footer-images img {
+    width: 4.5rem;
+    margin-left: 4.5rem;
+  }
+
+  .company-logo-container {
+    grid-row: 2 / 2;
+    margin-left: 14rem;
+  }
+
+  .company-logo {
+    color: white;
+  }
+}

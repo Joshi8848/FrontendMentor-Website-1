@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
+    <title>Frontend Mentor | Manage landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body> 
+    <section class="top-part">
+      <img id="Layer_1"
+    class="background"
+    src="images/bg-simplify-section-desktop.svg"
+  />
+    <header class="header">
+      <div class="container">
+      <img class="company-logo" src="images/logo.svg" alt="Company Logo" />
+      <nav class="main-nav">
+        <ul class="main-nav-links">
+          <li class="nav-links">Pricing</li>
+          <li class="nav-links">Product</li>
+          <li class="nav-links">About Us</li>
+          <li class="nav-links">Carrers</li>
+          <li class="nav-links">Community</li>
+        </ul>
+      </nav>
+      <a class="get-started first-button" href="#">Get Started</a>
+      <div class="mobile-nav">
+        <img class="menu-open open" name="open-menu" src="images/icon-hamburger.svg" alt="hamburger menu">
+      <img class="menu-close close" name="close-menu" src="images/icon-close.svg" alt="close menu">
+      </div>
+    </div>
+    </header>
+    <main>
+
+      <section class="main-section section-1 container grid--1-row">
+        <div class="product-text container-1">
+          <h1 class="product-header">
+            Bring everyone together to build better products.
+          </h1>
+          <p class="about-manage small-text">
+            Manage makes it simple for software teams </br> to plan day-to-day tasks
+            while keeping the </br> larger team goals in view.
+          </p>
+          <a class="get-started second-button" href="#">Get Started</a>
+        </div>
+        <div class="product-charts ">
+         
+          <img src="images/illustration-intro.svg" />
+        </div>
+      </section> 
+    </section>
+      <section class="secondary-section container grid--1-row">
+        <div class="about-manage-different container-1 ">
+          
+          <h2 class="different-header">What’s different about Manage?</h2>
+          <p class="different-text small-text">Manage provides all the functionality your  </br> team
+            needs, without the complexity. Our  </br> software is tailor-made for modern
+            digital  </br> product teams.</p>
+        </div>
+        <div class="infos different-info container-2">
+          <div class="each-section">
+          <div class="number-holder">
+            <p class="numbers number-1">01</p>
+          </div>
+          
+          <div class="about-manage-text">
+            <h4>Track company-wide progress</h4>
+          <p class="just-for-margin small-text">See how your
+            day-to-day tasks fit into the wider vision. Go from tracking progress at the
+            milestone level all the way done to the smallest of details. Never lose
+            sight of the bigger picture again.</p>
+          </div>
+        </div>
+        <div class="each-section">
+          <div class="number-holder">
+          <p class="numbers number-2">02</p>
+          </div>
+          <div class="about-manage-text">
+            <h4>Advanced built-in reports</h4>
+            <p class="just-for-margin small-text">Set internal
+              delivery estimates and track progress toward company goals. Our customisable
+              dashboard helps you build out the reports you need to keep key stakeholders
+              informed.</p>
+          </div>
+        </div>
+
+        <div class="each-section">
+          <div class="number-holder ">
+          <p class="numbers number-3">03</p>
+          </div>
+          <div class="about-manage-text">
+            <h4>Everything you need in one place</h4>
+            <p class="just-for-margin small-text">Stop jumping from one service
+              to another to communicate, store files, track tasks and share documents.
+              Manage offers an all-in-one team productivity solution.</p>
+          </div>
+        </div>
+        </div>
+      </section>
+      
+      <section class="section-testimonials ">
+       
+        <h3>What they've said</h3>
+        <div class="section-container main-container grid--3-row" id="slider">
+        <div class="anisha testimonial">
+        
+          <img src="images/avatar-anisha.png">
+      
+          <p class="testimonial-title">Anisha Li</p>
+          <p>“Manage has supercharged our team’s workflow. The ability to
+            maintain visibility on larger milestones at all times keeps everyone
+            motivated.”</p>
+          
+        </div>
+        <div class="ali testimonial">
+          <img src="images/avatar-ali.png">
+          <p class="testimonial-title">Ali Bravo</p>
+          <p>“We have been able to cancel so many other
+            subscriptions since using Manage. There is no more cross-channel confusion
+            and everyone is much more focused.”</p>
+        </div>
+        <div class="richard testimonial">
+          <img src="images/avatar-richard.png">
+          <p class="testimonial-title">Richard Watts</p>
+          <p>“Manage allows us to
+            provide structure and process. It keeps us organized and focused. I can’t
+            stop recommending them to everyone I talk to!”</p>
+        </div>
+        <div class="shanai testimonial">
+          <img src="images/avatar-shanai.png">
+          <p>Shanai Gough</p>
+          <p>“Their software
+            allows us to track, manage and collaborate on our projects from anywhere. It
+            keeps the whole team in-sync without being intrusive.”</p>
+        </div>
+        
+      </div>
+    
+      
+      </section>
+      <div class="indicator">
+        <span class="btn active"></span>
+        <span class="btn"></span>
+        <span class="btn"></span>
+        <span class="btn"></span>
+      </div>
+      <div class="button-testimonial">
+        <a href="#" alt="button" class="get-started second-last-button">Get Started</a>
+      </div>
+
+      <section class="above-footer grid--1-row">
+        <div><p class="above-footer-text">Simplify how your team works </br> today.</p></div>
+        <div class="foot-btn"><a href="#" class="get-started above-footer-button" >Get Started</a></div>  
+      </section>
+      <section class="footer-section ">
+      <footer class="footer main-footer container">
+        <div class="footer-logos">
+          <div class="company-logo-container">
+             <img class="company-logo" src="images/logo.svg" alt="Company logo" href="#" >
+        </div>
+          <nav class="footer-images ">
+            <a  href="#"><img src="images/icon-facebook.svg" alt="facebook logo"> </a>
+            <a  href="#"><img src="images/icon-youtube.svg" alt="facebook logo"> </a>
+            <a  href="#"><img src="images/icon-twitter.svg" alt="facebook logo"> </a>
+            <a  href="#"><img src="images/icon-pinterest.svg" alt="facebook logo"> </a>
+            <a  href="#"> <img src="images/icon-instagram.svg" alt="facebook logo"> </a>
+          </nav>
+        </div>
+        <div class="infos-1">
+          <p>Home</p>
+          <p>Pricing</p>
+          <p>Products</p>
+          <p>About Us</p>
+        </div>
+        <div class="infos-2">
+          <p>Carrers</p>
+          <p>Community</p>
+          <p>Privacy Policy</p>
+        </div>
+        <div class="input-label">
+          <div><input type="text" id="input" placeholder="Updates in your inbox..."></div>
+          <div class="final-button"><a href="#" class="go-button">Go</a></div>
+          
+        </div>
+        
+      </footer>
+    </section>
+    </main>
+
+  
+
+ 
+
+    <!-- Pricing Product About Us Careers Community Get Started Get Started   01   02   03   What they’ve said
+        Get Started Simplify
+    how your team works today. Get Started Home Pricing Products About Us
+    Careers Community Privacy Policy Updates in your inbox… Go Copyright 2020.
+    All Rights Reserved -->
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="main.js"></script>
+  </body>
+</html>
